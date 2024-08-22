@@ -10,7 +10,7 @@
     <meta content="https://prdimkameni.github.io/cover.jpg" property="og:image" />
     <meta content="#fff" data-react-helmet="true" name="theme-color" />
     <link rel="icon" href="cover.jpg" type="image/x-icon">
-        <style>
+    <style>
         body {
             display: flex;
             flex-direction: column;
@@ -35,22 +35,32 @@
             margin-bottom: 20px;
         }
         .headline {
-        font-size: 4em;
-        font-weight: bold;
-        color: #fff;
-        margin-bottom: 20px;
+            font-size: 4em;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 20px;
         }
         .reklama {
-        font-size: 1em;
-        font-weight: normal;
-        color: #fff;
-        margin-bottom: 20px;
+            font-size: 1em;
+            font-weight: normal;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .hidden-link {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            position: absolute;
+            left: -9999px;
         }
     </style>
 </head>
 <body>
     <div class="headline">R.I.P 2023-2024</div>
-    <div class="reklama">@votasikos was here</div>
+    <div class="reklama">
+        <a href="https://www.youtube.com/watch?v=lY6Zv6pQ5Fg" class="hidden-link">@votasikos was here</a>
+    </div>
     <img src="cover.jpg" alt="Obrázek">
     <audio controls autoplay>
         <source src="track.mp3" type="audio/mpeg">
