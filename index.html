@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🥀 #prdimkameniforever 🥀</title>
+    <link rel="icon" href="cover.jpg" type="image/x-icon">
     <style>
         body {
             display: flex;
@@ -12,7 +13,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #000000;
         }
         img {
             max-width: 100%;
@@ -25,10 +26,15 @@
     </style>
 </head>
 <body>
-    <img src="cover.jpg" alt="Cover">
-    <audio controls>
+    <img src="cover.jpg" alt="Obrázek">
+    <audio controls autoplay>
         <source src="track.mp3" type="audio/mpeg">
         Váš prohlížeč nepodporuje audio přehrávač.
     </audio>
+
+    <script>
+        // Nastavení hlasitosti na 50 %
+        document.querySelector('audio').volume = 0.5;
+    </script>
 </body>
 </html>
